@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery-container {
+            margin: 50px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+        .gallery-item {
+            margin-bottom: 30px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .gallery-item h3 {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .container h1 {
+            font-size: 32px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Our Website Gallery</h1>
+        <p>Explore some of the stunning images from our upcoming website</p>
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="1.jpg" alt="Website Design 1">
+            <h3>Page 1</h3>
+        </div>
+        <div class="gallery-item">
+            <img src="2.jpg" alt="Website Design 2">
+            <h3>Page 2</h3>
+        </div>
+        <div class="gallery-item">
+            <img src="3.jpg" alt="Website Design 3">
+            <h3>Page 3</h3>
+        </div>
+        <div class="gallery-item">
+            <img src="4.jpg" alt="Website Design 4">
+            <h3>Page 4</h3>
+        </div>
+    </div>
+</body>
+</html>
